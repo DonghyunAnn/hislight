@@ -59,14 +59,14 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <CategoryCard
               title="주거"
-              description="은퇴 후 주거와 관련된 유용한 정보와 리소스를 제공합니다"
+              description="임대주택, 내집마련, 주택자금, 주거복지 등 주거 생활 정보"
               href="/housing"
               icon={<Home className="w-8 h-8" />}
               variant="yellow"
             />
             <CategoryCard
               title="생활"
-              description="일상 생활에 필요한 다양한 정보와 서비스를 안내합니다"
+              description="복지혜택, 건강관리, 행정민원, 상담 등 생활 전반의 정보"
               href="/life"
               icon={<BookOpen className="w-8 h-8" />}
               variant="navy"
