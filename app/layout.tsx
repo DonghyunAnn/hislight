@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     apple: '/logo.svg',
   },
   openGraph: {
-    title: "HisLight",
+    title: "HisLight - 은퇴 선교사 생활 정보 허브",
     description: "은퇴 선교사의 새로운 시작을 비추는 빛",
     images: ['/logo.svg'],
   },
