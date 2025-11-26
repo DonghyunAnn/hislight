@@ -39,7 +39,7 @@ export default function AboutSection() {
                 히즈라이트는 복음의 빛을 비췄던 이들의 새로운 삶을 응원하고 조명합니다.
               </p>
               <p className="text-base leading-relaxed text-gray-700">
-                히즈라이트는 은퇴 선교사의 한국 사회 재적응과 새로운 사역을 돕기 위해 시작되었습니다. 주거와 생활에 대한 정보를 쉽게 찾아볼 수 있도록 링크트리 웹사이트와 카카오톡 챗봇 서비스를 제공합니다.
+                히즈라이트는 은퇴 선교사의 한국 사회 재적응과 새로운 사역을 돕기 위해 시작되었습니다. 주거와 생활에 대한 정보를 쉽게 찾아볼 수 있도록 필요한 생활 정보를 한곳에 모은 리소스 허브와 카카오톡 챗봇 서비스를 제공합니다.
               </p>
               <blockquote className="mt-6 pt-4 border-t border-gray-200">
                 <p className="text-base italic text-[oklch(0.25_0.08_250)] leading-relaxed">

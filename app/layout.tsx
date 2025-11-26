@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HisLight - 은퇴 후 삶을 안내하는 등대",
+  title: "HisLight - 은퇴 선교사 생활 정보 허브",
   description: "은퇴 선교사의 새로운 시작을 비추는 빛",
   icons: {
     icon: '/logo.svg',
