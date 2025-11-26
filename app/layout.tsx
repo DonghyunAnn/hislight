@@ -17,14 +17,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HisLight - 은퇴 후 삶을 안내하는 등대",
-  description: "은퇴 선교사와 목회자를 위한 생활 정보 플랫폼",
+  description: "은퇴 선교사의 새로운 시작을 비추는 빛",
   icons: {
     icon: '/logo.svg',
     apple: '/logo.svg',
   },
   openGraph: {
     title: "HisLight",
-    description: "은퇴 후 삶을 안내하는 등대",
+    description: "은퇴 선교사의 새로운 시작을 비추는 빛",
     images: ['/logo.svg'],
   },
 };
