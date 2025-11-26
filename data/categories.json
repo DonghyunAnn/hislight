@@ -1,0 +1,12 @@
+[
+  {
+    "id": "housing",
+    "name": "주거",
+    "description": "주거 관련 정보"
+  },
+  {
+    "id": "life",
+    "name": "생활",
+    "description": "생활 관련 정보"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "housing-rental-public",
+    "categoryId": "housing",
+    "name": "임대·공공 주택",
+    "description": "임대·공공 주택 관련 서비스"
+  },
+  {
+    "id": "housing-ownership-sales",
+    "categoryId": "housing",
+    "name": "내집마련·분양",
+    "description": "내집마련·분양 관련 서비스"
+  },
+  {
+    "id": "housing-finance-loan",
+    "categoryId": "housing",
+    "name": "자금·대출",
+    "description": "자금·대출 관련 서비스"
+  },
+  {
+    "id": "housing-welfare-service",
+    "categoryId": "housing",
+    "name": "복지·창구",
+    "description": "복지·창구 관련 서비스"
+  },
+  {
+    "id": "housing-rights-mediation",
+    "categoryId": "housing",
+    "name": "권리·조정",
+    "description": "권리·조정 관련 서비스"
+  },
+  {
+    "id": "life-basic-welfare",
+    "categoryId": "life",
+    "name": "기초 생활 지원 및 복지 혜택",
+    "description": "기초 생활 지원 및 복지 혜택 관련 서비스"
+  },
+  {
+    "id": "life-admin-civil",
+    "categoryId": "life",
+    "name": "행정·민원",
+    "description": "행정·민원 관련 서비스"
+  },
+  {
+    "id": "life-health-medical",
+    "categoryId": "life",
+    "name": "건강·의료",
+    "description": "건강·의료 관련 서비스"
+  },
+  {
+    "id": "life-consulting-community",
+    "categoryId": "life",
+    "name": "컨설팅과 커뮤니티",
+    "description": "컨설팅과 커뮤니티 관련 서비스"
+  }
+]

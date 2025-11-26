@@ -1,0 +1,989 @@
+[
+  {
+    "id": "res-001",
+    "subcategoryId": "housing-welfare-service",
+    "title": "청년, 신혼부부 주거지원",
+    "description": "지역별 청년·신혼부부를 주거복지현황을 한눈에 확인할 수 있습니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/main/getMgtMainYhsPage.do"
+  },
+  {
+    "id": "res-002",
+    "subcategoryId": "housing-rental-public",
+    "title": "통합공공임대",
+    "description": "사회취약계층의 주거안정을 목적으로 공급하는 임대주택 정보를 제공합니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyIntegratedPublicView.do#guide=RH112"
+  },
+  {
+    "id": "res-003",
+    "subcategoryId": "housing-rental-public",
+    "title": "매입임대",
+    "description": "정부가 기존 주택을 매입해 시세보다 저렴하게 임대해 주는 다가구 등 매입임대주택 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyPurchaseRentalView.do#guide=MENU100"
+  },
+  {
+    "id": "res-004",
+    "subcategoryId": "housing-rental-public",
+    "title": "전세임대",
+    "description": "도심 내 최저소득계층이 현 생활권에 거주할 수 있도록 기존 주택에 대해 전세계약을 맺고 저렴하게 재임대하는 임대주택 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyCharterRentalView.do#guide=RH107"
+  },
+  {
+    "id": "res-005",
+    "subcategoryId": "housing-rental-public",
+    "title": "국민임대",
+    "description": "무주택 저소득층(소득 1~4분위)의 주거 안정을 위해 국가 재정과 국민주택기금으로 지은 국민임대주택을 장기간 저렴하게 임대하는 제도 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyNationRentalView.do#guide=RH104"
+  },
+  {
+    "id": "res-006",
+    "subcategoryId": "housing-rental-public",
+    "title": "영구임대",
+    "description": "생계·의료급여 수급자, 국가유공자, 일본군위안부 피해자, 한부모가족 등 사회보호계층에게 매우 낮은 임대료로 제공하는 영구임대주택 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyContRentalView.do#guide=RH103"
+  },
+  {
+    "id": "res-007",
+    "subcategoryId": "housing-rental-public",
+    "title": "장기전세",
+    "description": "전세보증금을 시세의 일정 비율로 책정하고 최대 20년까지 전세 형태로 안정적으로 거주할 수 있는 장기전세주택 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyLongCharterView.do#guide=RH105"
+  },
+  {
+    "id": "res-008",
+    "subcategoryId": "housing-rental-public",
+    "title": "공공지원민간임대",
+    "description": "10년 이상 거주 보장과 임대료 인상 제한 등 공공 규제를 적용해 시세보다 저렴하게 공급하는 공공지원 민간임대주택 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyPublicSupPrivateView.do#guide=RH109"
+  },
+  {
+    "id": "res-009",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "공공분양",
+    "description": "소득이 낮은 무주택 서민, 국가유공자, 장애인, 신혼부부, 다자녀, 노부모 부양자, 신생아 등 정책적 배려가 필요한 사회계층의 주택마련을 지원하는 공공분양주택 소개 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyLttotView.do#guide=LT301"
+  },
+  {
+    "id": "res-010",
+    "subcategoryId": "housing-rental-public",
+    "title": "신혼희망타운",
+    "description": "육아·보육 환경과 교통·생활 편의 등을 고려해 지은 전량을 신혼부부에게 공급하는 신혼부부 특화형 공공주택입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyHoneyMoonView.do#guide=HM401"
+  },
+  {
+    "id": "res-011",
+    "subcategoryId": "housing-rental-public",
+    "title": "신혼부부 특별공급",
+    "description": "분양·임대주택 공급 물량 중 일정 비율을 신혼부부에게 우선 배정하는 신혼부부 특별공급 제도의 자격 기준과 신청 방법을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyHoneyMoonSpecialView.do#guide=RH114"
+  },
+  {
+    "id": "res-012",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "생애최초 특별공급",
+    "description": "생애 최초로 주택을 구입하는 무주택 가구를 대상으로 분양주택을 특별공급하는 제도의 자격 요건과 신청 방법을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyFirstTimeSpecialView.do#guide=RH115"
+  },
+  {
+    "id": "res-013",
+    "subcategoryId": "housing-rental-public",
+    "title": "임대주택-소개",
+    "description": "통합공공임대, 국민임대, 영구임대, 행복주택, 장기전세 등 주요 공공임대주택 유형별 특징과 임대조건을 한눈에 비교해서 볼 수 있는 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectContRentalHouseView.do"
+  },
+  {
+    "id": "res-014",
+    "subcategoryId": "housing-rental-public",
+    "title": "임대주택-공급기관",
+    "description": "공공분양과 공공임대 등 다양한 주택 공급 유형과 주체, 모집 공고와 청약 일정을 안내하는 공급정보 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSupInfoView.do"
+  },
+  {
+    "id": "res-015",
+    "subcategoryId": "housing-rental-public",
+    "title": "통합공공임대주택",
+    "description": "통합공공임대주택의 입주 자격, 소득·자산 기준, 임대조건 등을 자세히 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectIntegratedPubRentalHouseView.do"
+  },
+  {
+    "id": "res-016",
+    "subcategoryId": "housing-rental-public",
+    "title": "매입임대주택",
+    "description": "도심 내 저소득층이 현 생활권에서 거주할 수 있도록 기존 주택을 매입해 시세의 약 30% 수준으로 저렴하게 임대하는 매입임대주택 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectBuyRentalHouseView.do"
+  },
+  {
+    "id": "res-017",
+    "subcategoryId": "housing-rental-public",
+    "title": "전세임대주택 안내",
+    "description": "도심 내 최저소득계층이 기존 주택에 대해 전세계약을 맺은 뒤 시세보다 저렴한 임대료로 다시 거주할 수 있도록 지원하는 전세임대주택 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectCharterRentalHouseView.do"
+  },
+  {
+    "id": "res-018",
+    "subcategoryId": "housing-rental-public",
+    "title": "행복주택",
+    "description": "대학생·청년·신혼부부·고령자 등에게 교통이 편리하고 직장·학교와 가까운 곳의 공공임대주택을 시세보다 저렴하게 제공하는 행복주택 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHappyHouseView.do"
+  },
+  {
+    "id": "res-019",
+    "subcategoryId": "housing-rental-public",
+    "title": "국민임대주택",
+    "description": "무주택 저소득층의 주거 안정을 위해 건설 및 공급하는 국민임대주택을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectNationalRentalHouseView.do"
+  },
+  {
+    "id": "res-020",
+    "subcategoryId": "housing-rental-public",
+    "title": "영구임대주택",
+    "description": "생계·의료급여 수급자와 국가유공자, 일본군위안부 피해자, 한부모가족 등 사회보호계층의 주거안정을 위한 영구임대주택을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectPermanentRHView.do"
+  },
+  {
+    "id": "res-021",
+    "subcategoryId": "housing-rental-public",
+    "title": "장기전세주택",
+    "description": "국가와 지자체·LH 등이 전세 방식으로 최대 20년까지 거주할 수 있게 공급하는 장기전세주택을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectlongTermLeaseHouseView.do"
+  },
+  {
+    "id": "res-022",
+    "subcategoryId": "housing-rental-public",
+    "title": "5년·10년·50년 공공임대주택",
+    "description": "5년·10년 임대 후 분양 전환하거나 50년 동안 임대로 거주할 수 있는 5·10·50년 공공임대주택 유형을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectPubRentalHouseView.do"
+  },
+  {
+    "id": "res-023",
+    "subcategoryId": "housing-rental-public",
+    "title": "주거복지동주택",
+    "description": "영구임대단지 내에 주택과 복지시설을 함께 조성해 고령자·장애인 등 취약계층을 집중 지원하는 주거복지동주택을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectResidentialWelfareHousingView.do"
+  },
+  {
+    "id": "res-024",
+    "subcategoryId": "housing-rental-public",
+    "title": "공공기숙사",
+    "description": "대학생에게 원룸·다가구형 등 기숙사를 시세보다 저렴하게 제공하는 공공기숙사(행복기숙사·희망하우징) 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectPubDormitoryView.do"
+  },
+  {
+    "id": "res-025",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "공공분양주택소개",
+    "description": "소득이 낮은 무주택 서민과 정책적 배려계층의 내 집 마련을 돕는 공공분양주택 제도를 종합적으로 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectPubSalesHousView.do"
+  },
+  {
+    "id": "res-026",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "전매제한 및 기타",
+    "description": "분양가상한제 공공주택의 전매제한 기간과 거주의무 기간 등 공공분양주택 관련 주요 규정을 안내하는 페이지입니다",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectResaleRestrictionView.do"
+  },
+  {
+    "id": "res-027",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "공급기관",
+    "description": "공공분양주택을 공급하는 LH와 지자체 등 주요 공급기관의 연락처와 홈페이지 정보를 정리한 안내 페이지입니다",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSupplyInstitutionView.do"
+  },
+  {
+    "id": "res-028",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "뉴홈(일반형)",
+    "description": "청년, 서민의 내짐마련 부담을 덜어주는 새로운 솔루션을 제공시하는 공공주택 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectNHTQualificationView.do"
+  },
+  {
+    "id": "res-029",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "뉴홈(나눔형-이익공유형)",
+    "description": "뉴홈 나눔형(이익공유형) 공공분양주택의 신생아·신혼부부·생애최초 등 유형별 특별공급 자격과 선정 기준을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectNewHomeShareTypeView.do"
+  },
+  {
+    "id": "res-030",
+    "subcategoryId": "housing-rental-public",
+    "title": "뉴홈(선택형-6년 공공임대)",
+    "description": "뉴홈 선택형(6년 공공임대) 주택의 신생아·신혼부부·생애최초·다자녀 등 공급유형별 입주자 자격과 소득·자산 조건을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectNewHomeChoiceTypeView.do"
+  },
+  {
+    "id": "res-031",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 장기전세",
+    "description": "서울주택도시공사 장기전세주택의 연도별 공급계획과 모집 일정·위치를 안내하는 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T243C1043/contents.do"
+  },
+  {
+    "id": "res-032",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 국민임대",
+    "description": "서울주택도시공사 국민임대주택의 공급계획과 단지별 공급 현황을 안내하는 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T243C1044/contents.do"
+  },
+  {
+    "id": "res-033",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 행복주택",
+    "description": "서울주택도시공사 행복주택의 공급 물량, 위치, 입주 대상 등을 정리한 공급계획 안내 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T243C1045/contents.do"
+  },
+  {
+    "id": "res-034",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 청년안심주택",
+    "description": "서울주택도시공사 청년안심주택의 공급지역, 방 종류, 입주 대상 등을 안내하는 공급계획 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T243C2811/contents.do"
+  },
+  {
+    "id": "res-035",
+    "subcategoryId": "housing-rental-public",
+    "title": "임대절차",
+    "description": "서울주택도시공사 임대주택의 청약 신청부터 계약·입주까지 전 과정을 단계별로 설명하는 임대절차 안내 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T1633C1634/contents.do"
+  },
+  {
+    "id": "res-036",
+    "subcategoryId": "housing-rental-public",
+    "title": "LH 임대 공고문",
+    "description": "LH청약플러스에서 임대주택 관련 모집 공고문을 목록으로 조회할 수 있는 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026"
+  },
+  {
+    "id": "res-037",
+    "subcategoryId": "housing-rental-public",
+    "title": "LH 임대가이드",
+    "description": "LH청약플러스에서 제공하는 임대주택의 유형과 입주자격을 안내하는 임대가이드 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1201583&cntntsId=1201331"
+  },
+  {
+    "id": "res-038",
+    "subcategoryId": "housing-rental-public",
+    "title": "LH 임대주택검색",
+    "description": "LH청약플러스에서 지역·단지 조건에 맞는 임대주택을 검색할 수 있는 임대주택검색 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/csvc/lshs-sch/inq.do?mi=1353"
+  },
+  {
+    "id": "res-039",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "LH 분양 공고문",
+    "description": "LH 분양주택 모집 공고문을 다시 한 번 통합 조회할 수 있는 공고문 목록 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1027"
+  },
+  {
+    "id": "res-040",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "LH 분양가이드",
+    "description": "LH청약플러스에서 제공하는 분양주택의 유형과 입주자격을 안내하는 분양가이드 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1178&cntntsId=1048"
+  },
+  {
+    "id": "res-041",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "LH 청약연습하기",
+    "description": "LH청약플러스의 ‘인터넷 청약 시스템’을 미리 연습해 볼 수 있는 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1385&cntntsId=1250"
+  },
+  {
+    "id": "res-042",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "LH 청약자격확인",
+    "description": "분양주택 청약시 청약자격 공통사항 확인 및 배점을 계산할 수 있는 자격확인 페이지입니다.",
+    "url": "https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=201547&cntntsId=201290"
+  },
+  {
+    "id": "res-043",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "경기도 청약공고",
+    "description": "경기주택도시공사 임대주택의 유형·지역별 청약공고를 한눈에 조회할 수 있는 청약공고 목록 페이지입니다.",
+    "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do"
+  },
+  {
+    "id": "res-044",
+    "subcategoryId": "housing-rental-public",
+    "title": "경기도 임대주택",
+    "description": "경기주택도시공사 임대주택 청약신청 가이드를 확인할 수 있는 안내 페이지입니다.",
+    "url": "https://apply.gh.or.kr/sb/sr/sr7230/selectSbscPrctHouse.do"
+  },
+  {
+    "id": "res-045",
+    "subcategoryId": "housing-rental-public",
+    "title": "주택 신청유형 자가진단",
+    "description": "나에게 맞는 통합공공임대 주택 신청유형을 알아보는 페이지입니다.",
+    "url": "https://apply.gh.or.kr/sb/sr/sr7370/selectSelfDiagnosisMain.do"
+  },
+  {
+    "id": "res-046",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 주택임대 공고문",
+    "description": "서울주택도시공사의 주택임대 관련 공고·공지사항을 모아 제공하는 주택임대 공고 게시판입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/list.do?multi_itm_seq=2"
+  },
+  {
+    "id": "res-047",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "서울 주택분양 공고문",
+    "description": "서울주택도시공사의 주택분양 관련 공고·공지사항을 확인할 수 있는 주택분양 공고 게시판입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C296/www/brd/m_244/list.do?multi_itm_seq=1"
+  },
+  {
+    "id": "res-048",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "서울 청약 분양 절차",
+    "description": "서울주택도시공사 분양주택의 청약신청, 당첨, 계약 순서를 정리한 분양절차 안내 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T1633C1635/contents.do"
+  },
+  {
+    "id": "res-049",
+    "subcategoryId": "housing-ownership-sales",
+    "title": "서울 청약 알리미 서비스",
+    "description": "서울주택도시공사 청약공고 알리미 서비스의 신청 방법과 문자·이메일 안내 기능을 소개하는 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T252C253/contents.do"
+  },
+  {
+    "id": "res-050",
+    "subcategoryId": "housing-rental-public",
+    "title": "내게 맞는 공공주택 유형 찾기",
+    "description": "서울주택도시공사에서 내가 신청할 수 있는 공공주택 유형을 진단하는 ‘내게 맞는 공공주택 유형 찾기’ 자가진단 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/self/selfAsmnt/selfAsmntMain.do"
+  },
+  {
+    "id": "res-051",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 임대주택 공급",
+    "description": "서울주택도시공사가 공급하는 임대주택 사업의 유형과 공급 현황을 소개하는 임대주택 공급 안내 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T230C231/contents.do"
+  },
+  {
+    "id": "res-052",
+    "subcategoryId": "housing-rental-public",
+    "title": "서울 인터넷청약시스템",
+    "description": "서울주택도시공사에서 제공하는 임대·분양 청약을 신청할 수 있는 온라인 청약 메인 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/app/index.do"
+  },
+  {
+    "id": "res-053",
+    "subcategoryId": "housing-rental-public",
+    "title": "임대주택",
+    "description": "전국 공공임대·민간임대 등 임대주택 정보를 지역·유형별로 검색할 수 있는 임대주택 정보조회 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/sch/selectRentalHouseInfoListView.do"
+  },
+  {
+    "id": "res-054",
+    "subcategoryId": "housing-rental-public",
+    "title": "공공분양주택 모집공고",
+    "description": "공공분양·민영분양 등 분양주택 단지 정보를 검색하고 청약 가능 단지를 찾을 수 있는 공공분양주택 정보조회 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseView.do"
+  },
+  {
+    "id": "res-055",
+    "subcategoryId": "housing-rental-public",
+    "title": "임대주택 모집공고",
+    "description": "전국의 공공임대 및 민간임대 정보를 반복 조회할 수 있는 임대주택 정보검색 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcView.do"
+  },
+  {
+    "id": "res-056",
+    "subcategoryId": "housing-finance-loan",
+    "title": "내집마련 디딤돌대출",
+    "description": "부부·신혼부부가 이용하는 내집마련 디딤돌대출의 조건과 혜택을 정리한 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicySteppingStoneLoanView.do#guide=HF204"
+  },
+  {
+    "id": "res-057",
+    "subcategoryId": "housing-finance-loan",
+    "title": "청년주택디딤돌 대출",
+    "description": "청년 주택드림 통장과 연계된 청년주택디딤돌 대출 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthHousingStepStoneLoanView.do#guide=HF222"
+  },
+  {
+    "id": "res-058",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신혼희망타운전용 주택담보장기대출",
+    "description": "신혼희망타운 입주자를 위한 전용 주택담보 장기대출 상품을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHopeTownMortgageLoanView.do#guide=HF223"
+  },
+  {
+    "id": "res-059",
+    "subcategoryId": "housing-finance-loan",
+    "title": "청년전용보증부 월세대출",
+    "description": "청년이 월세와 보증금을 저금리로 지원받는 청년전용보증부 월세대출 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyWarrantyMonthlyLoanView.do#guide=MENU103"
+  },
+  {
+    "id": "res-060",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신혼부부 전세대출",
+    "description": "신혼부부가 전세 보증금을 빌릴 수 있는 신혼부부 전세대출 조건을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyHoneyMoonLoanView.do#guide=HF217"
+  },
+  {
+    "id": "res-061",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신생아 특례 버팀목 대출",
+    "description": "신생아 출산 가구를 위한 신생아 특례 버팀목 전세대출을 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyBabySpecialCaseCrutchLoneView.do#guide=HF221"
+  },
+  {
+    "id": "res-062",
+    "subcategoryId": "housing-finance-loan",
+    "title": "비정상거처 이주지원 버팀목 대출",
+    "description": "쪽방·고시원 등 비정상 거처 거주자의 이주를 돕는 비정상거처 이주지원 버팀목대출 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyUnslRsidSupLoanView.do#guide=HF219"
+  },
+  {
+    "id": "res-063",
+    "subcategoryId": "housing-finance-loan",
+    "title": "버팀목전세자금",
+    "description": "무주택 서민을 위한 기본 버팀목 전세자금대출 상품 내용을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyCrutchLoanView.do#guide=HF211"
+  },
+  {
+    "id": "res-064",
+    "subcategoryId": "housing-finance-loan",
+    "title": "청년버팀목전세자금",
+    "description": "전세자금이 부족한 청년들을 대상으로 한 청년전용 버팀목 전세자금대출 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthOnlyCrutchLoanView.do#guide=MENU101"
+  },
+  {
+    "id": "res-065",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신혼부부전용 구입자금",
+    "description": "신혼부부의 내 집 마련을 위한 신혼부부전용 주택 구입자금 대출 상품을 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyHoneyMoonPurchaseView.do#guide=HF216"
+  },
+  {
+    "id": "res-066",
+    "subcategoryId": "housing-finance-loan",
+    "title": "내집마련디딤돌대출",
+    "description": "무주택 서민을 위한 대표 주택구입자금인 내집마련 디딤돌대출의 기본 정보를 제공하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSteppingStoneLoanView.do"
+  },
+  {
+    "id": "res-067",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신생아 특례 디딤돌대출",
+    "description": "신생아 출산 가구를 대상으로 한 신생아 특례 디딤돌대출 내용을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseStepStoneLoneView.do"
+  },
+  {
+    "id": "res-068",
+    "subcategoryId": "housing-finance-loan",
+    "title": "버팀목전세대출",
+    "description": "일반 버팀목 전세대출 상품 개요와 이용 조건을 설명하는 공식 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSupLeaseLoanView.do"
+  },
+  {
+    "id": "res-069",
+    "subcategoryId": "housing-finance-loan",
+    "title": "신생아특례버팀목대출",
+    "description": "신생아 출산 가구를 위한 신생아 특례 버팀목 전세대출을 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseCrutchLoneView.do"
+  },
+  {
+    "id": "res-070",
+    "subcategoryId": "housing-finance-loan",
+    "title": "주거안정월세대출",
+    "description": "저소득 무주택 가구의 월세 부담을 줄이는 주거안정 월세대출을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectResidentialMonthlyRentLoanView.do"
+  },
+  {
+    "id": "res-071",
+    "subcategoryId": "housing-finance-loan",
+    "title": "주택도시기금 기금e든든",
+    "description": "쪽방·고시원 등 비정상 거처 거주자의 이주를 돕는 비정상거처 이주지원 버팀목대출 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSupAbnormalResidentialView.do"
+  },
+  {
+    "id": "res-072",
+    "subcategoryId": "housing-finance-loan",
+    "title": "기금e든든 대출상품",
+    "description": "주택도시기금 ‘기금e든든’에서 제공하는 대출상품 소개 안내 페이지입니다.",
+    "url": "https://enhuf.molit.go.kr/index.jsp"
+  },
+  {
+    "id": "res-073",
+    "subcategoryId": "housing-finance-loan",
+    "title": "수익공유형모기지",
+    "description": "주택 구입 시 수익을 정부와 나누는 수익공유형 모기지의 구조와 조건을 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSharingMortgageView.do"
+  },
+  {
+    "id": "res-074",
+    "subcategoryId": "housing-finance-loan",
+    "title": "손익공유형모기지",
+    "description": "주택 가격 변동의 이익과 손실을 함께 나누는 손익공유형 모기지 상품을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectLossSharingMortgageView.do"
+  },
+  {
+    "id": "res-075",
+    "subcategoryId": "housing-finance-loan",
+    "title": "오피스텔구입자금",
+    "description": "오피스텔 분양계약자를 위한 오피스텔 구입자금 대출 상품 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectFundsPurchaseOfficetelView.do"
+  },
+  {
+    "id": "res-076",
+    "subcategoryId": "housing-finance-loan",
+    "title": "보금자리론",
+    "description": "고정금리 장기 모기지인 보금자리론의 대출대상·금리·한도를 정리한 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSpecializedNestingView.do"
+  },
+  {
+    "id": "res-077",
+    "subcategoryId": "housing-finance-loan",
+    "title": "주택연금",
+    "description": "보유 주택을 담보로 매달 연금을 받는 주택연금 제도를 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousingPensionView.do"
+  },
+  {
+    "id": "res-078",
+    "subcategoryId": "housing-finance-loan",
+    "title": "청년 주택드림 청약통장",
+    "description": "청년우대형을 포함한 청년 주택드림 청약통장의 가입 요건과 혜택을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthPassbookView.do#guide=HF218"
+  },
+  {
+    "id": "res-079",
+    "subcategoryId": "housing-finance-loan",
+    "title": "보증료 할인",
+    "description": "청년이 전세보증 가입 시 보증료를 할인받는 ‘보증료 할인’ 제도를 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyGuaranteeFeeDisView.do#guide=HF214"
+  },
+  {
+    "id": "res-080",
+    "subcategoryId": "housing-finance-loan",
+    "title": "청년 보증료 지원",
+    "description": "전세보증금 반환보증에 가입한 청년·신혼부부에게 보증료를 지원하는 ‘청년 보증료지원’ 제도 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyGuaranteeFeeSupView.do#guide=HF215"
+  },
+  {
+    "id": "res-081",
+    "subcategoryId": "housing-finance-loan",
+    "title": "든든전세주택",
+    "description": "주택도시보증공사의 ‘든든전세주택’ 개요와 전세보증금·임대조건 등을 안내하는 페이지입니다.",
+    "url": "https://www.khug.or.kr/jeonse/web/s07/s070101.jsp"
+  },
+  {
+    "id": "res-082",
+    "subcategoryId": "housing-finance-loan",
+    "title": "주택금융소개",
+    "description": "집을 사거나 세를 얻을때 필요한 대출 및 주택금융상품 전반을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousingFinanceView.do"
+  },
+  {
+    "id": "res-083",
+    "subcategoryId": "housing-finance-loan",
+    "title": "주택도시보증공사",
+    "description": "주택도시보증공사의 역할과 주요 보증·정책사업을 소개하는 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectGuaranteeCorporationView.do"
+  },
+  {
+    "id": "res-084",
+    "subcategoryId": "housing-finance-loan",
+    "title": "한국주택금융공사",
+    "description": "한국주택금융공사의 설립 목적과 보금자리론·주택보증 등 주요 업무를 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectFinanceCorporationView.do"
+  },
+  {
+    "id": "res-085",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "구성 및 심의, 조정 사항",
+    "description": "주택임대차 분쟁조정위원회의 구성과 심의·조정 대상 분쟁 유형을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseCompositionDelAdjMatters.do"
+  },
+  {
+    "id": "res-086",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "조정비용",
+    "description": "주택임대차 분쟁조정 신청 시 수수료와 감면·환급 기준을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseAdjustmentCost.do"
+  },
+  {
+    "id": "res-087",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "조정절차 및 기타",
+    "description": "주택임대차 분쟁조정 신청부터 조사·조정·성립까지 전체 절차를 설명하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseMediationProcedures.do"
+  },
+  {
+    "id": "res-088",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "서식",
+    "description": "주택임대차 분쟁조정 신청에 필요한 각종 신청서와 위임장 서식을 내려받을 수 있는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseFormat.do"
+  },
+  {
+    "id": "res-089",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "위원회 안내",
+    "description": "공동주택관리 분쟁조정위원회의 역할과 특징, 조정제도의 장점을 소개하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectAphusManagetrubl.do"
+  },
+  {
+    "id": "res-090",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "분쟁조정절차",
+    "description": "공동주택관리 분쟁조정 신청, 사실조사, 조정안 제시와 성립 과정 등 전체 절차를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseDisputeMediationProcedure.do"
+  },
+  {
+    "id": "res-091",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "분쟁조정 신청 기준 및 유의사항",
+    "description": "공동주택관리 분쟁조정 신청 대상 공동주택, 신청 기준, 유의사항을 정리한 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseStandardsPrecautions.do"
+  },
+  {
+    "id": "res-092",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "조정비용 및 기타",
+    "description": "공동주택관리 분쟁조정 신청 수수료, 납부방법, 구비서류와 접수 방식 등을 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousePublicAdjustmentCost.do"
+  },
+  {
+    "id": "res-093",
+    "subcategoryId": "housing-rights-mediation",
+    "title": "주택임대차 분쟁 위원회 안내",
+    "description": "주택임대차 분쟁조정위원회의 관할 기관, 주소, 연락처 등 상담·신청 창구를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHouseLsTrubl.do"
+  },
+  {
+    "id": "res-094",
+    "subcategoryId": "housing-welfare-service",
+    "title": "자립준비청년",
+    "description": "아동복지시설 등에서 퇴소한 자립준비청년에게 임대주택과 주거비를 지원하는 보호종료아동 주거지원 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyProtectEndChildView.do#guide=MENU003"
+  },
+  {
+    "id": "res-095",
+    "subcategoryId": "housing-welfare-service",
+    "title": "긴급주거지원",
+    "description": "갑작스러운 주거 상실 위기에 놓인 가구에 임시거처와 임대주택을 제공하는 긴급주거지원 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyEmergencyHousSupView.do#guide=MENU001"
+  },
+  {
+    "id": "res-096",
+    "subcategoryId": "housing-welfare-service",
+    "title": "청년주거지원 사업 자가진단",
+    "description": "본인 정보를 입력하면 신청 가능한 청년 주거지원·월세지원 제도를 알려주는 청년주거지원 자가진단 서비스입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisYgJindanView.do"
+  },
+  {
+    "id": "res-097",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거복지 지도찾기",
+    "description": "지도를 통해 주변의 공공임대주택과 주거복지센터 위치를 한눈에 찾을 수 있는 주거복지 지도 서비스입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/gis/mnvPosblHouseMap.do"
+  },
+  {
+    "id": "res-098",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거안심종합센터 안내",
+    "description": "SH공사의 주거안심종합센터에서 제공하는 주거상담, 분쟁조정 연계, 생활지원 서비스 내용을 안내하는 페이지입니다.",
+    "url": "https://www.i-sh.co.kr/main/lay2/S1T230C312/contents.do"
+  },
+  {
+    "id": "res-099",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거급여",
+    "description": "청년·신혼부부를 위한 주택공급, 금융지원, 주거비지원 제도를 종합적으로 정리한 청년주거지원 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyHousingView.do#guide=HB001"
+  },
+  {
+    "id": "res-100",
+    "subcategoryId": "housing-welfare-service",
+    "title": "청년가구 지원",
+    "description": "청년을 위한 행복주택, 청년주택 등 공공임대주택 공급 제도를 중심으로 소개하는 청년주택 지원 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthHousingView.do#guide=HB004"
+  },
+  {
+    "id": "res-101",
+    "subcategoryId": "housing-welfare-service",
+    "title": "청년월세 특별지원",
+    "description": "청년월세 특별지원 등 청년의 월세 부담을 낮춰주는 각종 월세지원 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthMonthlySupView.do#guide=HB009"
+  },
+  {
+    "id": "res-102",
+    "subcategoryId": "housing-welfare-service",
+    "title": "비정상거처 거주자 이사비 지원",
+    "description": "쪽방·반지하 등 비정상 거처 거주자의 이주비를 지원합니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyExpensesSupView.do#guide=MENU004"
+  },
+  {
+    "id": "res-103",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거급여소개",
+    "description": "주거급여 제도의 대상, 신청방법, 지원내용을 한눈에 설명하는 주거급여 기본 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousingBenefitView.do"
+  },
+  {
+    "id": "res-104",
+    "subcategoryId": "housing-welfare-service",
+    "title": "임차가구지원",
+    "description": "소득인정액 기준 이하의 가구가 안정된 주거생활을 할 수 있도록 전월세비용을 지원하는 임차가구지원 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectRentalHouseholdSupView.do"
+  },
+  {
+    "id": "res-105",
+    "subcategoryId": "housing-welfare-service",
+    "title": "자가가구지원",
+    "description": "자기 집을 보유한 저소득 가구의 수선유지비 등을 지원하는 자가가구용 주거급여 제도를 안내하는 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectSupSelfHouseholdsView.do"
+  },
+  {
+    "id": "res-106",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거급여관리",
+    "description": "주거급여 신청 이후 변경 신고, 관리 절차, 지자체 담당 부서 업무를 정리한 주거급여 관리 안내 페이지입니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousingBenefitManagementView.do"
+  },
+  {
+    "id": "res-107",
+    "subcategoryId": "housing-welfare-service",
+    "title": "주거취약계층 주거지원",
+    "description": "고시원·쪽방거주자 등 주거취약계층에게 저렴한 임대주택을 제공합니다.",
+    "url": "https://www.myhome.go.kr/hws/portal/cont/selectHousingSupVulnerableGroupsView.do"
+  },
+  {
+    "id": "res-108",
+    "subcategoryId": "life-basic-welfare",
+    "title": "전기요금 할인 안내 및 신청",
+    "description": "전기요금 복지할인의 대상, 신청 방법 및 제출 서류 등 상세한 안내 정보를 확인하고 복지할인 신청을 온라인으로 진행할 수 있습니다.",
+    "url": "https://online.kepco.co.kr/MIM021D00"
+  },
+  {
+    "id": "res-109",
+    "subcategoryId": "life-basic-welfare",
+    "title": "도시가스요금 경감(복지 할인) 신청 안내",
+    "description": "도시가스 요금 경감 대상자, 신청 방법 및 필수 준비 서류에 대한 상세한 정보를 얻을 수 있습니다.",
+    "url": "https://www.kogas.or.kr/site/koGas/1020408010000"
+  },
+  {
+    "id": "res-110",
+    "subcategoryId": "life-basic-welfare",
+    "title": "저소득층 에너지 효율개선 지원 안내",
+    "description": "저소득층 대상 난방 효율 개선 지원사업의 내용 및 신청 절차에 대한 상세한 정보를 얻을 수 있습니다. 지원 대상자가 추천 또는 신청서 작성을 통해 신청하면, 방문조사 및 승인대기를 거쳐 시공/물품 지원을 받을 수 있습니다.",
+    "url": "https://www.koref.or.kr/web/intropage/intropageShow.do?page_id=553ef5b0dbb048da98a36cb9f8e75431"
+  },
+  {
+    "id": "res-111",
+    "subcategoryId": "life-basic-welfare",
+    "title": "복지 서비스 통합 조회 및 신청",
+    "description": "복지로는 중앙 지자체의 다양한 복지서비스 정보를 통합 제공하며, 맞춤 검색부터 온라인 신청까지 가능한 대한민국 대표 복지포털입니다.",
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/index.do"
+  },
+  {
+    "id": "res-112",
+    "subcategoryId": "life-basic-welfare",
+    "title": "선교사 복지 카드제도 안내 및 신청",
+    "description": "이름·연락처·소속·지원필요분야를 작성 후 제출하면 선교사 복지 카드 발급 신청을 할 수 있습니다. 심사 후 승인이 완료되면 의료·재정 등 지원 및 제휴 혜택을 받을 수 있습니다.",
+    "url": "http://kwmcf.org/board/submenu_categories/27/boards/85"
+  },
+  {
+    "id": "res-113",
+    "subcategoryId": "life-basic-welfare",
+    "title": "에너지 바우처 안내 및 신청",
+    "description": "소득 기준과 세대원 특성 정보를 작성하여 제출할 수 있습니다. 이후 심사를 거쳐 에너지 바우처를 지급받을 수 있습니다.",
+    "url": "https://www.energyv.or.kr/info/support_info.do#"
+  },
+  {
+    "id": "res-114",
+    "subcategoryId": "life-basic-welfare",
+    "title": "에너지 바우처 모의진단",
+    "description": "소득 및 세대원 특성 정보를 입력하면 에너지바우처 지원대상 여부를 자가진단할 수 있습니다. 이후 신청서를 작성해 제출할 수 있습니다.",
+    "url": "https://www.energyv.or.kr/info/energyv_smu.do"
+  },
+  {
+    "id": "res-115",
+    "subcategoryId": "life-basic-welfare",
+    "title": "문화누리카드 신청",
+    "description": "통합문화이용권인 문화누리카드 발급을 위해 정보를 작성하여 제출할 수 있습니다. 이후 승인대기를 거쳐 카드를 발급받을 수 있습니다.",
+    "url": "https://www.mnuri.kr/card/cardMain/cardIssue_step00.do"
+  },
+  {
+    "id": "res-116",
+    "subcategoryId": "life-basic-welfare",
+    "title": "국민기초생활보장 모의계산",
+    "description": "가구원수와 소득 재산 정보를 입력하면, 수급 가능 여부 및 예상 지원금 및 혜택 여부를 확인할 수 있습니다.",
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twatbz/mkclAsis/mkclInsertNblgPage.do"
+  },
+  {
+    "id": "res-117",
+    "subcategoryId": "life-basic-welfare",
+    "title": "기초연금 모의계산",
+    "description": "소득 및 재산 정보를 입력하면, 기초연금 수급 가능 여부를 확인합니다. 수급자격 정보를 작성하여 신청할 수 있습니다.",
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164"
+  },
+  {
+    "id": "res-118",
+    "subcategoryId": "life-basic-welfare",
+    "title": "서울시 우대용 교통카드 발급",
+    "description": "우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://news.seoul.go.kr/traffic/archives/1791"
+  },
+  {
+    "id": "res-119",
+    "subcategoryId": "life-basic-welfare",
+    "title": "경기도 우대용 교통카드 발급",
+    "description": "경기도 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://www.gg.go.kr/contents/contents.do?ciIdx=762&menuId=2538"
+  },
+  {
+    "id": "res-120",
+    "subcategoryId": "life-basic-welfare",
+    "title": "광주광역시 우대용 교통카드 발급 안내",
+    "description": "광주광역시 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://www.grtc.co.kr/subway/contents/seniorCard"
+  },
+  {
+    "id": "res-121",
+    "subcategoryId": "life-basic-welfare",
+    "title": "대전광역시 우대용 교통카드 발급 안내",
+    "description": "대전광역시 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=7242"
+  },
+  {
+    "id": "res-122",
+    "subcategoryId": "life-basic-welfare",
+    "title": "경기도 인천광역시 우대용 교통카드 발급 안내",
+    "description": "인천광역시 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://www.icjg.go.kr/welfare/whad03c"
+  },
+  {
+    "id": "res-123",
+    "subcategoryId": "life-basic-welfare",
+    "title": "충청남도 우대용 교통카드 발급 안내",
+    "description": "충청남도 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://transport.chungnam.go.kr/intro/seniorIntro.do"
+  },
+  {
+    "id": "res-124",
+    "subcategoryId": "life-basic-welfare",
+    "title": "부산광역시 우대용 교통카드 발급 안내",
+    "description": "부산광역시 우대용 교통카드에 대한 정보 및 발급 방법에 대한 정보를 얻을 수 있습니다.",
+    "url": "https://www.busan.go.kr/depart/ahcard04"
+  },
+  {
+    "id": "res-125",
+    "subcategoryId": "life-admin-civil",
+    "title": "출입국에 대한 사실 증명 서류 발급",
+    "description": "본인의 인적 사항과 조회 시작/종료일을 입력하면, 출입국에 관한 사실 증명 서류를 발급받을 수 있습니다. 서류는 즉시 다운로드 또는 출력할 수 있습니다.",
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000024"
+  },
+  {
+    "id": "res-126",
+    "subcategoryId": "life-admin-civil",
+    "title": "전입신고 신청 방법 및 제출 서류 안내",
+    "description": "전입신고 신청 방법 및 제출 서류에 대한 정보를 얻을 수 있습니다. 전입 신고 정보를 작성 및 제출하면, 승인대기 단계로 진행됩니다.",
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016&tp_seq=01"
+  },
+  {
+    "id": "res-127",
+    "subcategoryId": "life-admin-civil",
+    "title": "재외동포 365 민원포털",
+    "description": "여권 재발급 신청, 재외국민등록부 등본 발급 등 각종 영사 민원 정보를 검색하고 서비스를 신청할 수 있습니다. 또한, 채팅/전화 상담을 이용하여, 필요한 영사 민원 서비스를 신청할 수 있습니다.",
+    "url": "https://www.g4k.go.kr/biz/main/main.do"
+  },
+  {
+    "id": "res-128",
+    "subcategoryId": "life-admin-civil",
+    "title": "여권재발급 온라인 신청",
+    "description": "온라인 신청을 통해 여권을 재발급받을 수 있습니다. 정보를 작성 후 제출하면 승인대기를 거쳐 여권을 수령할 수 있습니다.",
+    "url": "https://www.gov.kr/portal/service/serviceInfo/126200000030"
+  },
+  {
+    "id": "res-129",
+    "subcategoryId": "life-admin-civil",
+    "title": "주민등록증 재발급",
+    "description": "재발급 또는 분실 사유와 사진을 업로드하고 제출하면 주민등록증 재발급 신청을 할 수 있습니다. 이후 승인대기를 거쳐 새로운 주민등록증을 교부받을 수 있습니다.",
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000018&tp_seq=01"
+  },
+  {
+    "id": "res-130",
+    "subcategoryId": "life-admin-civil",
+    "title": "하이코리아",
+    "description": "외국 국적이신 경우 한국에서의 체류 기간 연장, 체류 자격 변경 등 전자민원을 신청하고 방문 예약을 진행할 수 있습니다. 또한, 민원 신청 결과, 체류 만료일, 등록증 유효 여부 등 각종 정보를 조회할 수 있습니다.",
+    "url": "https://www.hikorea.go.kr/memb/MembLoginR.pt?chk=Y#this"
+  },
+  {
+    "id": "res-131",
+    "subcategoryId": "life-admin-civil",
+    "title": "아스포티유 소개 및 신청방법",
+    "description": "아포스티유 제도 소개, 인증서 발급 대상 및 이용 절차 등 서비스 안내 정보를 얻을 수 있습니다. 외국에서 사용할 공문서의 종류를 검색하고, 발급 신청에 대한 정보를 확인할 수 있습니다.",
+    "url": "https://www.apostille.go.kr/gd/intro/appIntro.do?checkTabNo=1"
+  },
+  {
+    "id": "res-132",
+    "subcategoryId": "life-admin-civil",
+    "title": "운전면허증 재발급",
+    "description": "운전 면허증 재발급 신청 장소, 구비 서류, 비용 등 관련 상세 정보를 얻을 수 있습니다. 이후 신청서를 작성하여 온라인으로 재발급 신청을 할 수 있습니다.",
+    "url": "https://www.safedriving.or.kr/guide/larGuide02.do?menuCode=MN-PO-1212"
+  },
+  {
+    "id": "res-133",
+    "subcategoryId": "life-health-medical",
+    "title": "건강보험 민원처리 종합 서비스",
+    "description": "국민건강보험공단의 민원서비스 게시판으로, 건강보험 자격·보험료·급여 등 분야별 민원 신고·신청·발급 서비스를 한눈에 검색하고 이용할 수 있도록 제공합니다.",
+    "url": "https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do"
+  },
+  {
+    "id": "res-134",
+    "subcategoryId": "life-health-medical",
+    "title": "우리 지역 병원·약국 검색 서비스",
+    "description": "건강보험심사평가원의 ‘건강지도’ 서비스로, 병원·약국·전문기관을 지역·장비·진료과목별로 검색하여 위치·평가 정보를 확인할 수 있습니다.",
+    "url": "https://www.hira.or.kr/ra/hosp/getHealthMap.do?tabgbn=03&WT.ac=HIRA%EA%B1%B4%EA%B0%95%EC%A7%80%EB%8F%84%EB%B0%94%EB%A1%9C%EA%B0%80%EA%B8%B0"
+  },
+  {
+    "id": "res-135",
+    "subcategoryId": "life-health-medical",
+    "title": "노인장기요양보험 통합서비스 포털",
+    "description": "국민건강보험공단의 ‘노인장기요양보험’ 포털로, 인정신청·등급판정·기관자료·민원을 온라인으로 제공하는 종합서비스입니다.",
+    "url": "https://www.longtermcare.or.kr/npbs/indexr.jsp"
+  },
+  {
+    "id": "res-136",
+    "subcategoryId": "life-consulting-community",
+    "title": "정부민원 통합상담창구 110",
+    "description": "국민권익위원회가 운영하는 ‘국민콜110’로, 정부 민원 및 생활정보 상담을 전화(국번없이 110), 채팅, 수어화상을 통해 365일 24시간 제공하는 통합창구입니다.",
+    "url": "https://www.110.go.kr/start.do"
+  },
+  {
+    "id": "res-137",
+    "subcategoryId": "life-consulting-community",
+    "title": "노후 준비 종합 포털",
+    "description": "국민연금공단의 ‘중앙노후준비지원센터’ 홈페이지로, 노후 준비 진단·상담·재무설계 등 종합 서비스를 제공합니다.",
+    "url": "https://csa.nps.or.kr/main.do"
+  },
+  {
+    "id": "res-138",
+    "subcategoryId": "life-consulting-community",
+    "title": "목회자 은퇴 준비 연구소",
+    "description": "재정관리 전문가 김남순 소장이 운영하는 목회자 은퇴 준비 사이트로 목회자 개인 은퇴준비 컨설팅, 선교사 개인 은퇴준비 컨설팅을 제공합니다",
+    "url": "https://prp-i.com/#%ED%99%88"
+  },
+  {
+    "id": "res-139",
+    "subcategoryId": "life-consulting-community",
+    "title": "노인일자리 전담 포털",
+    "description": "한국노인인력개발원의 고령자 일자리·사회활동 지원 포털로, 노인 구직-일자리 정보 검색과 신청이 가능합니다.",
+    "url": "https://www.seniorro.or.kr:4431/noin/main.do"
+  },
+  {
+    "id": "res-140",
+    "subcategoryId": "life-consulting-community",
+    "title": "본월드 하우스 안내 및 신청",
+    "description": "본월드 하우스 신청 자격, 위치, 시설 규모, 사용 기간, 요금 및 입퇴실 규정 등 본월드 하우스 이용에 대한 정보를 얻을 수 있습니다. 사용 신청 기간 6개월 전부터 예약이 가능하며, 이용 신청서와 파송 증명서 등 구비 서류를 작성하여 제출하면 선교사 전용 숙소인 본월드 하우스를 예약하실 수 있습니다.",
+    "url": "http://www.bonmission.or.kr/bbs/content.php?co_id=bon_guide"
+  },
+  {
+    "id": "res-141",
+    "subcategoryId": "life-consulting-community",
+    "title": "지역별 선교관 안내 및 신청",
+    "description": "선교관 이용 가능 지역을 검색하여, 해당 지역의 선교관 위치, 연락처, 이용 조건 등 상세 정보를 확인할 수 있습니다. 이후 신청서 작성 또는 전화 예약을 진행할 수 있습니다.",
+    "url": "https://www.amcareland.com/missionhouse-byregion"
+  }
+]

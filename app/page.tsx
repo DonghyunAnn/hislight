@@ -1,65 +1,79 @@
-import Image from "next/image";
+import Image from 'next/image'
+import { Home, BookOpen } from 'lucide-react'
+import PageContainer from '@/components/common/PageContainer'
+import CategoryCard from '@/components/common/CategoryCard'
+import UnicornBackground from '@/components/common/UnicornBackground'
+import AboutSection from '@/components/common/AboutSection'
 
-export default function Home() {
+/**
+ * HomePage - 메인 랜딩 페이지
+ *
+ * Hero 섹션과 카테고리 카드 표시
+ */
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      {/* Hero Section with Animated Background - Full Width */}
+      <div className="relative h-screen w-full flex items-center overflow-hidden">
+        {/* Unicorn Studio 배경 애니메이션 - 높이를 늘려 워터마크를 화면 밖으로 */}
+        <UnicornBackground
+          projectId="KJW2rH7O15F5WUxxdd5w"
+          height={1100}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+
+        {/* 좌측 하단 메시지 */}
+        <div className="absolute bottom-8 left-8 z-10 max-w-2xl text-left">
+          <h2 className="text-4xl md:text-5xl font-bold text-[oklch(0.25_0.08_250)] mb-4 leading-tight drop-shadow-md">
+            세상에 <span className="text-[oklch(0.7_0.18_90)]">빛</span>을 비춰주었던 당신의 길<br />
+            그 길을 비춰줄 새로운 <span className="text-[oklch(0.7_0.18_90)]">빛</span>
+          </h2>
+          <blockquote className="mt-6 text-lg md:text-xl text-gray-700 leading-relaxed drop-shadow-sm">
+            <p className="mb-2">
+              오! 하나님,<br />
+              내가 늙고 머리가 희어졌다고 나를 버리지 마소서
+            </p>
+            <p className="mb-2">
+              내가 늙어 죽을 때까지<br />
+              내 후손에게 주의 크신 능력을 전하겠습니다.
+            </p>
+            <cite className="block text-sm text-gray-600 mt-2 not-italic">
+              - 시편 71:18
+            </cite>
+          </blockquote>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </div>
+
+      {/* About Section - Team Introduction, Mission, Vision */}
+      <AboutSection />
+
+      {/* Category Cards - Contained Width */}
+      <div className="relative z-0 bg-white">
+        <PageContainer>
+          {/* 카테고리 섹션 헤더 */}
+          <div className="text-center pt-16 mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-[oklch(0.25_0.08_250)] leading-tight">
+              필요한 <span className="text-[oklch(0.7_0.18_90)]">주거, 생활</span> 정보를 한곳에서
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <CategoryCard
+              title="주거"
+              description="은퇴 후 주거와 관련된 유용한 정보와 리소스를 제공합니다"
+              href="/housing"
+              icon={<Home className="w-8 h-8" />}
+              variant="yellow"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+            <CategoryCard
+              title="생활"
+              description="일상 생활에 필요한 다양한 정보와 서비스를 안내합니다"
+              href="/life"
+              icon={<BookOpen className="w-8 h-8" />}
+              variant="navy"
+            />
+          </div>
+        </PageContainer>
+      </div>
+    </>
+  )
 }
