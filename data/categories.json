@@ -2,11 +2,11 @@
   {
     "id": "housing",
     "name": "주거",
-    "description": "주거 관련 정보"
+    "description": "임대주택, 내집마련, 주택자금, 주거복지 등 주거 생활 정보"
   },
   {
     "id": "life",
     "name": "생활",
-    "description": "생활 관련 정보"
+    "description": "복지혜택, 건강관리, 행정민원, 상담 등 생활 전반의 정보"
   }
 ]
