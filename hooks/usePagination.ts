@@ -35,9 +35,9 @@ export function usePagination<T>(
     return items.slice(startIndex, endIndex)
   }, [items, currentPage, itemsPerPage])
 
-  // 페이지 그룹 계산 (1~10, 11~20 방식)
+  // 페이지 그룹 계산 (1~5, 6~10 방식)
   const pageGroup = useMemo<PageGroup>(() => {
-    const pageGroupSize = 10
+    const pageGroupSize = 5
     const currentGroup = Math.ceil(currentPage / pageGroupSize)
     const start = (currentGroup - 1) * pageGroupSize + 1
     const end = Math.min(currentGroup * pageGroupSize, totalPages)
