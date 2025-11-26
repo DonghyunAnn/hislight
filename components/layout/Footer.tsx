@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
 
         {/* 마태복음 5:14 */}
-        <p className="text-2xl font-semibold mb-2 text-[oklch(0.7_0.18_90)]">
+        <p className="text-2xl font-semibold mb-2 text-[oklch(0.85_0.15_90)]">
           너희는 세상의 빛이라
         </p>
         <p className="text-sm mb-8 text-gray-300">
