@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     images: ['/logo.svg'],
   },
   verification: {
+    google: 'N2kEfmVr9fm8mOlVgPQTDSnMNUKArxBAL9Gl_UkdeuE',
     other: {
       'naver-site-verification': '2ff9927e997afb375059c23ea531600b936380a1',
     },
