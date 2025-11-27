@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     description: "은퇴 선교사의 새로운 시작을 비추는 빛",
     images: ['/logo.svg'],
   },
+  verification: {
+    other: {
+      'naver-site-verification': '2ff9927e997afb375059c23ea531600b936380a1',
+    },
+  },
 };
 
 export default function RootLayout({
