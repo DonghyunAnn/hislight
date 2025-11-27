@@ -13,12 +13,14 @@ interface PageGroup {
  * @param items - 페이지네이션할 아이템 배열
  * @param initialPage - 초기 페이지 번호 (기본: 1)
  * @param itemsPerPage - 페이지당 아이템 수 (기본: 9)
+ * @param pageGroupSize - 한 번에 표시할 페이지 번호 개수 (기본: 5)
  * @returns 페이지네이션 상태, 액션, 계산된 데이터
  */
 export function usePagination<T>(
   items: T[],
   initialPage: number = 1,
-  itemsPerPage: number = 9
+  itemsPerPage: number = 9,
+  pageGroupSize: number = 5
 ) {
   const [currentPage, setCurrentPage] = useState(initialPage)
 
@@ -35,9 +37,8 @@ export function usePagination<T>(
     return items.slice(startIndex, endIndex)
   }, [items, currentPage, itemsPerPage])
 
-  // 페이지 그룹 계산 (1~5, 6~10 방식)
+  // 페이지 그룹 계산 (반응형: 3/5/7/10개)
   const pageGroup = useMemo<PageGroup>(() => {
-    const pageGroupSize = 5
     const currentGroup = Math.ceil(currentPage / pageGroupSize)
     const start = (currentGroup - 1) * pageGroupSize + 1
     const end = Math.min(currentGroup * pageGroupSize, totalPages)
@@ -48,7 +49,7 @@ export function usePagination<T>(
       hasPrevGroup: start > 1,
       hasNextGroup: end < totalPages,
     }
-  }, [currentPage, totalPages])
+  }, [currentPage, totalPages, pageGroupSize])
 
   // 페이지 범위 초과 방지
   useEffect(() => {

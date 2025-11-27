@@ -18,6 +18,7 @@ import {
 import { useResourceFilter } from '@/hooks/useResourceFilter'
 import { usePagination } from '@/hooks/usePagination'
 import { useUrlSync } from '@/hooks/useUrlSync'
+import { useMediaQuery } from '@/hooks/useMediaQuery'
 
 interface ResourcePageLayoutProps {
   /** 카테고리 ID ("housing" 또는 "life") */
@@ -26,6 +27,14 @@ interface ResourcePageLayoutProps {
 
 export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutProps) {
   const searchParams = useSearchParams()
+
+  // 커스텀 훅: 반응형 화면 크기 감지
+  const isSmallMobile = useMediaQuery('(max-width: 640px)')
+  const isMediumMobile = useMediaQuery('(max-width: 768px)')
+  const isTablet = useMediaQuery('(max-width: 1024px)')
+
+  // 화면 크기에 따른 페이지 그룹 크기 설정
+  const pageGroupSize = isSmallMobile ? 3 : isMediumMobile ? 5 : isTablet ? 7 : 10
 
   // 커스텀 훅: 필터링
   const {
@@ -53,7 +62,12 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
     resetPage,
     goToPrevGroup,
     goToNextGroup,
-  } = usePagination(filteredResources, Number(searchParams.get('page')) || 1, 9)
+  } = usePagination(
+    filteredResources,
+    Number(searchParams.get('page')) || 1,
+    9,
+    pageGroupSize
+  )
 
   // 커스텀 훅: URL 동기화
   useUrlSync({
@@ -144,7 +158,7 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
               {totalPages > 1 && (
                 <div className="mt-12 flex justify-center">
                   <Pagination>
-                    <PaginationContent>
+                    <PaginationContent className="gap-1 md:gap-2">
                       {/* 이전 그룹 버튼 */}
                       <PaginationItem>
                         <PaginationPrevious
@@ -162,7 +176,7 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
                         />
                       </PaginationItem>
 
-                      {/* 페이지 번호 (현재 그룹만) */}
+                      {/* 페이지 번호 (현재 그룹만, 반응형) */}
                       {Array.from(
                         { length: pageGroup.endPage - pageGroup.startPage + 1 },
                         (_, i) => pageGroup.startPage + i
@@ -175,7 +189,7 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
                               goToPage(page)
                             }}
                             isActive={currentPage === page}
-                            className="cursor-pointer min-w-10 min-h-10"
+                            className="cursor-pointer min-w-10 min-h-12 md:min-h-10"
                             aria-label={`페이지 ${page}`}
                           >
                             {page}
