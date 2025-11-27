@@ -90,12 +90,14 @@
   /* Accessibility: 50+ users - large fonts, high contrast */
   html {
     font-size: 16px; /* Base font size for accessibility */
+    overflow-x: hidden; /* Prevent horizontal scroll */
   }
 
   body {
     @apply bg-background text-foreground;
     font-size: 1rem; /* 16px minimum */
     line-height: 1.6; /* Better readability */
+    overflow-x: hidden; /* Prevent horizontal scroll */
   }
 
   h1 {

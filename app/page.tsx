@@ -22,7 +22,7 @@ export default function HomePage() {
         />
 
         {/* 좌측 하단 메시지 */}
-        <div className="absolute bottom-8 left-8 z-10 max-w-2xl text-left">
+        <div className="absolute bottom-8 left-4 right-4 md:left-8 md:right-auto z-10 max-w-3xl text-left">
           <h2 className="text-4xl md:text-5xl font-bold text-[oklch(0.25_0.08_250)] mb-4 leading-tight drop-shadow-md">
             세상에 <span className="text-[oklch(0.7_0.18_90)]">빛</span>을 비춰주었던 당신의 길<br />
             그 길을 비춰줄 새로운 <span className="text-[oklch(0.7_0.18_90)]">빛</span>
