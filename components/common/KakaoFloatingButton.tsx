@@ -10,9 +10,9 @@ import KakaoTalkIcon from '@/components/icons/KakaoTalkIcon'
  * 카카오톡 채널로 연결
  */
 
-// 카카오톡 채널 ID (나중에 업데이트)
+// 카카오톡 채널 ID
 // 형식: http://pf.kakao.com/_your_channel_id
-const KAKAO_CHANNEL_ID = '' // 예: '_xabcdefg'
+const KAKAO_CHANNEL_ID = '_xoWKpn'
 
 export default function KakaoFloatingButton() {
   const handleClick = () => {

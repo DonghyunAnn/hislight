@@ -24,7 +24,7 @@ export default function Footer() {
             이메일 문의: <a href="mailto:kls24.hislight@gmail.com" className="hover:text-[oklch(0.7_0.18_90)] transition-colors underline decoration-gray-400 hover:decoration-[oklch(0.7_0.18_90)]">kls24.hislight@gmail.com</a>
           </p>
           <p className="text-base text-gray-300">
-            카카오톡 채널: <span className="text-gray-400">준비중</span>
+            카카오톡 채널: <a href="http://pf.kakao.com/_xoWKpn" target="_blank" rel="noopener noreferrer" className="hover:text-[oklch(0.7_0.18_90)] transition-colors underline decoration-gray-400 hover:decoration-[oklch(0.7_0.18_90)]">@HisLight</a>
           </p>
         </div>
 

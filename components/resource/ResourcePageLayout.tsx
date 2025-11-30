@@ -113,8 +113,8 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
       />
 
       {/* 메인 레이아웃 */}
-      <div className="flex gap-8">
-        {/* 좌측 필터 사이드바 */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* 좌측 필터 사이드바 (모바일에서는 상단에 표시) */}
         <FilterSidebar>
           <SubcategoryFilter
             subcategories={categorySubcategories}
@@ -126,7 +126,7 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
         </FilterSidebar>
 
         {/* 우측 리소스 그리드 */}
-        <main className="flex-1">
+        <main className="flex-1 w-full md:w-auto">
           {/* 결과 개수 */}
           <div className="mb-6">
             <p className="text-gray-600">
@@ -143,7 +143,7 @@ export default function ResourcePageLayout({ categoryId }: ResourcePageLayoutPro
           {/* 리소스 그리드 */}
           {filteredResources.length > 0 ? (
             <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto max-w-lg md:max-w-none">
                 {paginatedResources.map((resource) => (
                   <ResourceCard
                     key={resource.id}
